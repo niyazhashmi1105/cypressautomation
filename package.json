@@ -1,0 +1,20 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --config pageLoadTimeout=10000",
+    "runtests": "npm run test"
+  },
+  "author": "niyaz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "cypress-mochawesome-reporter": "^3.5.0"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "xml2js": "^0.6.0"
+  }
+}
