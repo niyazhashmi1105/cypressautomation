@@ -14,8 +14,8 @@ describe('Dropdown Interactions ', ()=>{
         //cy.get('.ui-corner-all').contains('Urdu').click()
 
         cy.get('[role=combobox]').click()
-        cy.get('.select2-search__field').type('Ind')
-        cy.get('.select2-search__field').type('{enter}')
+        cy.get('.select2-search__field').type('Ind').type('{enter}')
+        //cy.get('.select2-search__field').type('{enter}')
     })
 
 })
